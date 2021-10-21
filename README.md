@@ -229,31 +229,7 @@ yarn remove tailwindcss autoprefixer postcss
 │   │       └───not-found
 │   ├───components (generic shared components)
 │   └───pages
-│       ├───auth
-│       │   ├───pages
-│       │   │   ├───forgot-password
-│       │   │   ├───forgot-password-email-sent
-│       │   │   ├───password-reset
-│       │   │   ├───password-reset-failed
-│       │   │   ├───password-reset-succeeded
-│       │   │   ├───sign-in
-│       │   │   └───sign-up
-│       │   └───services
-│       ├───dashboard
 │       ├───home
-│       ├───settings
-│       │   └───pages
-│       │       ├───account
-│       │       ├───appearance
-│       │       ├───billing
-│       │       ├───blocked-users
-│       │       ├───notifications
-│       │       ├───security
-│       │       └───security-log
-│       └───user
-│           └───pages
-│               ├───my-profile
-│               └───overview
 ├───assets
 ├───environments
 └───theme
