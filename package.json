@@ -9,7 +9,7 @@
     "build": "ng build",
     "build:stats": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test --watch",
     "lint": "ng lint",
     "prepare": "husky install",
     "pre-commit": "lint-staged"

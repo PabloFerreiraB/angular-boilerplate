@@ -176,18 +176,6 @@ There are certain features that you may or may not like to have in your projects
   yarn remove husky @commitlint/cli @commitlint/config-conventional
   ```
 
-### 🌠 GitHub Actions workflows
-
-> A GitHub Action workflow is a configurable automated process made up of one or more jobs that will help us to validate if some actions pass before we integrate new code into the repository (E.g., run unit tests on pull-requests or branch pushes).
-
-- Remove CodeQL analysis:
-
-  - Go to `angular-boilerplate\.github\workflows` and remove the file codeql-analysis.yml
-
-- Remove tests workflow:
-
-  - Go to `angular-boilerplate\.github\workflows` and remove the file test.yml
-
 ### 🌠 TailwindCSS
 
 > TailwindCSS is a utility-first CSS Framework fully customizable & fully tree shakeable. If you want to replace it with another CSS framework or don't want to use a CSS framework at all, you can easily remove it from the project.

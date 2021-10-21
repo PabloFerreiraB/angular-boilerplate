@@ -5,6 +5,14 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
+
+  if (window) {
+    window.console.log =
+      window.console.info =
+      window.console.warn =
+      window.console.error =
+      window.console.table = () => { /* remove consoles */ };
+  }
 }
 
 platformBrowserDynamic()

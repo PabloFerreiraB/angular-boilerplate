@@ -1,14 +1,14 @@
 import { APP_BASE_HREF } from '@angular/common';
 import { TestBed, waitForAsync } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { WebShellModule } from '@shell/ft/web-shell.module';
+import { CoreModule } from '@core/core.module';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(
     waitForAsync(() => {
       TestBed.configureTestingModule({
-        imports: [RouterTestingModule, WebShellModule],
+        imports: [RouterTestingModule, CoreModule],
         declarations: [AppComponent],
         providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
       }).compileComponents();

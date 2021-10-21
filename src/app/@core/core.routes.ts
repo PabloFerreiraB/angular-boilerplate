@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ROUTER_UTILS } from '@core/utils/router.utils';
-import { NotFoundModule } from 'src/app/@shared/ui/not-found/not-found.module';
+import { NotFoundModule } from '@shared/ui/not-found/not-found.module';
 import { FooterModule } from '../@shared/ui/footer/footer.module';
 import { HeaderModule } from '../@shared/ui/header/header.module';
 import { LayoutModule } from '../@shared/ui/layout/layout.module';
@@ -16,7 +16,7 @@ const APP_ROUTES: Routes = [
   },
   {
     path: '**',
-    loadChildren: async () => (await import('src/app/@shared/ui/not-found/not-found.module')).NotFoundModule,
+    loadChildren: async () => (await import('@shared/ui/not-found/not-found.module')).NotFoundModule,
     component: NotFoundPage,
   },
 ];

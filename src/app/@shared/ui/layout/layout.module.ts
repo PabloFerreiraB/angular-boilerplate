@@ -7,6 +7,6 @@ import { LayoutComponent } from './layout.component';
 @NgModule({
   declarations: [LayoutComponent],
   imports: [CommonModule, HeaderModule, FooterModule],
-  exports: [LayoutComponent],
+  exports: [LayoutComponent]
 })
 export class LayoutModule {}
