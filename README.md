@@ -96,8 +96,6 @@ private: only logged in users can see them
 
   Go to `src/app/core/utils/router.utils.ts` to find all the registered routes inside a config object.
 
-  For example, you could replace `sign-in` with `SignIn`, `login` or `iniciar_sesion`
-
 - Change titles, descriptions, and robots of the pages:
 
   Every page has a `.route` file that contains an exported constant that holds the title, description and a robot's metatag that indicates if it can be indexed or followed by a web crawler.
@@ -208,8 +206,7 @@ yarn remove tailwindcss autoprefixer postcss
 │   │   │   ├───seo
 │   │   │   └───theme
 │   │   └───utils
-│   ├───@shell
-│   │   ├───ft
+│   ├───@shared
 │   │   └───ui (layout components)
 │   │       ├───footer
 │   │       ├───header
