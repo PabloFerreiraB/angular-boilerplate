@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://angularboilerplate.vercel.app"><strong>https://my-angular-boilerplate.vercel.app/</strong></a>
+  <a href="https://my-angular-boilerplate.vercel.app/"><strong>https://my-angular-boilerplate.vercel.app/</strong></a>
   <br>
 </p>
 
