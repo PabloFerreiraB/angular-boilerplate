@@ -3,20 +3,19 @@
 <p align="center">
   <img src="https://img.icons8.com/ios-filled/150/000000/angularjs.png" alt="angular-logo" width="120px" height="120px"/>
   <br>
-  <i>Angular starter for enterprise-grade front-end projects, built under a clean architecture 
-    <br> that helps to scale and maintain a fast workflow.</i>
+  <i>Angular starter for enterprise-grade front-end projects.</i>
   <br>
 </p>
 
 <p align="center">
-  <a href="https://angularboilerplate.vercel.app"><strong>https://angularboilerplate.vercel.app</strong></a>
+  <a href="https://angularboilerplate.vercel.app"><strong>https://my-angular-boilerplate.vercel.app/</strong></a>
   <br>
 </p>
 
 <p align="center">
   <a href="CONTRIBUTING.md">Contributing Guidelines</a>
   ·
-  <a href="https://github.com/juanmesa2097/angular-boilerplate/issues">Submit an Issue</a>
+  <a href="https://github.com/PabloFerreiraB/angular-boilerplate/issues">Submit an Issue</a>
   <br>
   <br>
 </p>
